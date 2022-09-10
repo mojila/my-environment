@@ -26,7 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export NPM_TOKEN="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"
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/opt/node@16/bin:$PATH"
 export LDFLAGS="-L/home/linuxbrew/.linuxbrew/opt/node@16/lib"
